@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: #FBFFE4;
+}
+
+.id-container {
+    margin: 50px 0;
+    padding: auto 0;
+    width: 25rem;
+    background-color: #3D8D7A;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px,
+       rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.nfc-id-content {
+    margin: 20px 0;
+    padding: 20px;
+    justify-content: center;
+}
+
+.school-logo {
+    gap: 10px;
+    display: inline-flex;
+    font-weight: 700;
+}
+
+.lagro-logo {
+    width: 3rem;
+    height: 3rem;
+}
+
+.nfc-user-image {
+    margin-top: 15px;
+    justify-content: center;
+    justify-self: center;
+}
+
+.nfc-image {
+    border-radius: 5px;
+    border: 2px solid #01130a;
+}
+
+.info-content {
+    margin-top: 3rem;
+}
+
+.nfc-user {
+    row-gap: 16px;
+
+}
+
+.nfc-user h1{
+    font-weight: 500;
+    display: inline-flex;
+    font-size: 18px;
+}
+
+.nfc-key-container {
+    width: 30%;
+    height: 4rem;
+    background-color: #123524;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+}
+
+.nfc-input {
+    font-size: 16px;
+    border-radius: 6px;
+    color: white;
+    height: 2.1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nfc-input:focus {
+    outline: none;
+    border-color: #8EB69B;
+}
